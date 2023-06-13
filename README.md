@@ -1,4 +1,4 @@
-# Ginna
+# Ginna & Carter
 
 This is a conjuction of a standard health checker service with on command spawning program to complete any tasks assigned
 To install just use the ./install option or execute the command python3 ginna.py
