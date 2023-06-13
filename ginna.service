@@ -1,0 +1,11 @@
+[Unit]
+Description=Ginna, I manage your system
+
+[Service]
+User=root
+WorkingDirectory=/root/.ginna/
+ExecStart=/usr/bin/python3 /usr/local/lib/nikky/ginna.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
